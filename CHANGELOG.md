@@ -6,7 +6,7 @@
         ;; by Rockin'-B, www.rockin-b.de
 
 ;                                                                            
-; Copyright (c) 2003/2006 Thomas Fuchs / The Rockin'-B, www.rockin-b.de       
+; Copyright (c) 2003/2006/2023 Thomas Fuchs / The Rockin'-B, www.rockin-b.de       
 ;                                                                            
 ; Permission is granted to anyone to use this software for any purpose        
 ; and to redistribute it freely, subject to the following restrictions:       
