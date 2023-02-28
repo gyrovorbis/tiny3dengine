@@ -18,7 +18,7 @@ The Tiny3D engine was developed from 2003 to 2006 by Thomas Fuchs, aka "The Rock
 For years, Tiny3D engine was just an incredibly impressive ROM circulating around without any source code, with The Rockin'-B seemingly disappearing from the homebrew scene and his website. In 2023, I was finally able to contact him, and he has graciously supplied the VMU development scene with his original source tree, including source code, documentation, binaries, and a rigorous history of his work. I have uploaded it here so that it may be preserved and can benefit other VMU developers in the future. 
 
 ## Future Work and Optimizations
-Within The Rockin'-B's carefully kept notes (<a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/CHANGELOG.md">CHANGELOG</a>) lies a treasure trove of information along with a list of potential and in-progress ideas for various performance optimizations which could still be implemented.
+Within The Rockin'-B's carefully kept notes (<a href="https://github.com/gyrovorbis/tiny3dengine/master/CHANGELOG.md">CHANGELOG</a>) lies a treasure trove of information along with a list of potential and in-progress ideas for various performance optimizations which could still be implemented.
 
 ## ROMs
 The binary ROM images are available for download and can be used with any VMU emulator or loaded onto the actual device, using something such as DreamShell or VMU Explorer.
