@@ -3,13 +3,13 @@ Tiny 3D Engine for the Sega Dreamcast's Visual Memory Unit by Thomas Fuchs / The
 
 <table><tr>
 <td>
-  <p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/tiny3dBig.gif?raw=true" alt="Title" width="192" height="128"><br>
+  <p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/tiny3dBig.gif?raw=true" alt="Title" width="192" height="128"><br>
   </td><td>
-<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/title.png?raw=true" alt="Title" width="192" height="128">
+<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/title.png?raw=true" alt="Title" width="192" height="128">
   </td><td>
-<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/help.png?raw=true" alt="Help" width="192" height="128">
+<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/help.png?raw=true" alt="Help" width="192" height="128">
   </td><td>
-<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/vms_icon.gif?raw=true" alt="Title" width="128" height="128">
+<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/vms_icon.gif?raw=true" alt="Title" width="128" height="128">
   </td></tr></table>
 
 ## Features
@@ -41,6 +41,6 @@ Within The Rockin'-B's carefully kept notes (<a href="https://github.com/gyrovor
 
 ## ROMs
 The binary ROM images are available for download and can be used with any VMU emulator or loaded onto the actual device, using something such as DreamShell or VMU Explorer.
-* <a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/3D.VMI">3D.VMI</a> (Web Browser Info Format)
-* <a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/3D.VMS">3D.VMS</a> (Web Browser File Format)
-* <a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/3D.DCI">3D.DCI</a> (Nexus Memory Card Format)
+* <a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/rom/3D.VMI">3D.VMI</a> (Web Browser Info Format)
+* <a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/rom/3D.VMS">3D.VMS</a> (Web Browser File Format)
+* <a href="https://github.com/gyrovorbis/tiny3dengine/raw/master/rom/3D.DCI">3D.DCI</a> (Nexus Memory Card Format)
