@@ -33,6 +33,9 @@ For years, Tiny3D engine was just an incredibly impressive ROM circulating aroun
 ## Building
 The project was originally being assembled with Marcus Comstedt's <a href="https://pkgsrc.se/devel/aslc86k">aslc86k</a> assembler; however, it is extremely old, is no longer being maintained, and only supports Windows. Efforts are under way to port the codebase to the newer, <a href="https://github.com/wtetzner/waterbear">Waterbear</a> assembler, which is fully cross-platform.
 
+## References
+Within the <a href="https://github.com/gyrovorbis/tiny3dengine/tree/master/doc">doc</a> folder lies a wealth of useful information, used during the development of the engine. These include varoius presentations and PDFs on the math routines and integer algorithms.
+
 ## Future Work and Optimizations
 Within The Rockin'-B's carefully kept notes (<a href="https://github.com/gyrovorbis/tiny3dengine/blob/master/CHANGELOG.md">CHANGELOG</a>) lies a treasure trove of information along with a list of potential and in-progress ideas for various performance optimizations which could still be implemented.
 
