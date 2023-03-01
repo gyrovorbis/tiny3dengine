@@ -7,7 +7,7 @@ Tiny 3D Engine for the Sega Dreamcast's Visual Memory Unit by Thomas Fuchs / The
   </td><td>
 <p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/title.png?raw=true" alt="Title" width="192" height="128">
   </td><td>
-<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/tiny3DBig2.gif?raw=true" alt="Screen Capture 2" width="192" height="128">
+<p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/tiny3dBig2.gif?raw=true" alt="Screen Capture 2" width="192" height="128">
   </td><td>
 <p align="left"><img src="https://github.com/gyrovorbis/tiny3dengine/blob/master/img/vms_icon.gif?raw=true" alt="VMS Icon" width="128" height="128">
   </td></tr></table>
