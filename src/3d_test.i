@@ -807,7 +807,7 @@ test_put_polygon:
 
 
 
-test_transform_matrices
+test_transform_matrices:
         callf clrscr
 
         xor acc

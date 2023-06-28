@@ -232,5 +232,5 @@ sincos:
 
         ;; the sinetable to provide values for rotation matrix creation
 sinetable:
-        include"sinetable.i"
+        .include"sinetable.i"
 

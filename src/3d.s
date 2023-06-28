@@ -403,7 +403,7 @@ goodbye:
 
 	.org	$280
 
-        include "icon.i"
+        .include "icon.i"
 	
         ;; Your main program starts here.
 
@@ -459,11 +459,11 @@ start:
 
         ;; some needful functions
 
-        include "misc.i"
+        .include "misc.i"
 
-        include "3d_demo.i"
+        .include "3d_demo.i"
 
-        include "3d_test.i"
+        .include "3d_test.i"
 
 
 
@@ -606,9 +606,9 @@ adress_workRAM:
         ret
 
 
-        include "3d_draw_line.i"
+        .include "3d_draw_line.i"
 
-        include "3d_framebuffer.i"
+        .include "3d_framebuffer.i"
 
 
         ;; 16 bit arithmetic functions:
@@ -689,15 +689,15 @@ dec_16bit:
         ret
 
 
-        include "3d_add.i"
+        .include "3d_add.i"
 
-        include "3d_sub.i"
+        .include "3d_sub.i"
 
-        include "3d_mul.i"
+        .include "3d_mul.i"
 
-        include "3d_div.i"
+        .include "3d_div.i"
 
-        include "3d_dot_product.i"
+        .include "3d_dot_product.i"
 
 
         ;; function:    "transform_point"
@@ -755,36 +755,36 @@ transform_point:
 
 
 
-        include "3d_stack.i"
+        .include "3d_stack.i"
 
-        include "3d_matrix.i"
+        .include "3d_matrix.i"
 
         ;; matrix transformation functions
         ;; -> multiply the current matrix
         ;;    with the appropriate transformation matrix from the left.
 
-        include "3d_translate.i"
+        .include "3d_translate.i"
 
-        include "3d_scale.i"
+        .include "3d_scale.i"
 
-        include "3d_rotate_x.i"
+        .include "3d_rotate_x.i"
 
-        include "3d_rotate_y.i"
+        .include "3d_rotate_y.i"
 
-        include "3d_rotate_z.i"
+        .include "3d_rotate_z.i"
 
 
         ;; high level display routines
 
-        include "3d_put_polygon.i"
+        .include "3d_put_polygon.i"
 
-        include "3d_project_point.i"
+        .include "3d_project_point.i"
 
-        include "3d_clip_and_draw_lines.i"
+        .include "3d_clip_and_draw_lines.i"
 
-        include "3d_sincos.i"
+        .include "3d_sincos.i"
 
-        include "3d_polygon_data.i"
+        .include "3d_polygon_data.i"
 
 
 ;; transformation matrix skeletons
@@ -852,7 +852,7 @@ transform_point:
 ;rz_c2_low       equ     195
 
 
-        include "3d_matrix_skeletons.i"
+        .include "3d_matrix_skeletons.i"
 
 
         ;; some edit mode indicator bitmaps
@@ -915,7 +915,7 @@ mode_pix:
         .byte %01100101,%00100101
 
 ; title & help screens
-        include "title.i"
-        include "help.i"
+        .include "title.i"
+        .include "help.i"
 
 	.cnop	0,$200		; pad to an even number of blocks
