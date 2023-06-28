@@ -383,31 +383,15 @@ goodbye:
 	
 	.org	$200
 
-        .byte   "Tiny3dEngine    "      ; 16 letters
-        .byte   "by Rockin'-B, www.rockin-b.de   "      ; 32 letters
+        .text 16   "Tiny3dEngine"
+        .text 32   "by Rockin'-B, www.rockin-b.de"
+        .string 16 "waterbear"
 
 	;; Icon header
 	
-	.org	$240
-
-        .word   3,10            ; Three frames
-
-        ;; Icon palette
-
-	.org	$260
-
-	.word	$F000,$F800,$F080,$F880,$F008,$F808,$F088,$FCCC
-	.word	$F888,$FF00,$F0F0,$FFF0,$F00F,$FF0F,$F0FF,$FFFF
-
-        ;; The "Rockin-B" icon for VMU file browser on Dreamcast 
-
-	.org	$280
-
-        .include "icon.i"
+  .include icon "img/vms_icon.gif" speed=16
 	
         ;; Your main program starts here.
-
-	.org	$680
 
 start:
         clr1 ie,7               ; block nonmasked interrupts
