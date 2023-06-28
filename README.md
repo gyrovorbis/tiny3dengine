@@ -31,7 +31,11 @@ The Tiny3D engine was developed from 2003 to 2006 by Thomas Fuchs, aka "The Rock
 For years, Tiny3D engine was just an incredibly impressive ROM circulating around without any source code, with The Rockin'-B seemingly disappearing from the homebrew scene and his website. In 2023, I was finally able to contact him, and he has graciously supplied the VMU development scene with his original source tree, including source code, documentation, binaries, and a rigorous history of his work. I have uploaded it here so that it may be preserved and can benefit other VMU developers in the future. 
 
 ## Building
-The project was originally being assembled with Marcus Comstedt's <a href="https://pkgsrc.se/devel/aslc86k">aslc86k</a> assembler; however, it is extremely old, is no longer being maintained, and only supports Windows. Efforts are under way to port the codebase to the newer, <a href="https://github.com/wtetzner/waterbear">Waterbear</a> assembler, which is fully cross-platform.
+The project has been migrated away from buildilng with Marcus Comstedt's original <a href="https://pkgsrc.se/devel/aslc86k">aslc86k</a> assembler and to the newer, <a href="https://github.com/wtetzner/waterbear">Waterbear</a> assembler, which is fully cross-platform and has several additional features. 
+
+To build, simply cd into the cloned directory, then run:
+
+    $ waterbear assemble src/3d.s -o Tiny3D.vms
 
 ## References
 Within the <a href="https://github.com/gyrovorbis/tiny3dengine/tree/master/doc">doc</a> folder lies a wealth of useful information, used during the development of the engine. These include varoius presentations and PDFs on the math routines and integer algorithms.
