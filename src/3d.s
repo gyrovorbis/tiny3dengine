@@ -389,7 +389,7 @@ goodbye:
 
 	;; Icon header
 	
-  .include icon "img/vms_icon.gif" speed=16
+  .include icon "../img/vms_icon.gif" speed=16
 	
         ;; Your main program starts here.
 
